@@ -1,0 +1,11 @@
+{
+  "name": "xinpin-visual-learning",
+  "version": "2.2.0",
+  "private": true,
+  "description": "可视化导论课程学习网站重构，无运行时依赖",
+  "scripts": {
+    "check": "node --check dist/app.js && node --check dist/content.js && node --check dist/linked-models.js && node --check dist/linked-lessons.js && node scripts/check.mjs && node scripts/linked-check.cjs",
+    "check:dom": "node scripts/linked-dom-check.cjs",
+    "preview": "python -m http.server 8765 --bind 127.0.0.1 --directory dist"
+  }
+}

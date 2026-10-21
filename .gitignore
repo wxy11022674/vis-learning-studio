@@ -1,0 +1,7 @@
+node_modules/
+.sites-runtime/
+artifacts/
+*.zip
+*.tar.gz
+*.log
+__pycache__/
