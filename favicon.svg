@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <title>昕品重制</title>
+  <circle cx="21" cy="23" r="12" fill="#F4B66A"/>
+  <path d="M10 52H54" stroke="#17243B" stroke-width="5" stroke-linecap="round"/>
+  <path d="M12 43L30 35L51 20" stroke="#4263EB" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="51" cy="20" r="6" fill="#4263EB"/>
+</svg>

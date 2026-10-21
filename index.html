@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f7f8fc">
+  <meta name="description" content="昕品重制：从数据到洞察的可视化学习空间。五章课程导学、交互实验、图表指南与即时自测。">
+  <title>昕品重制 · 可视化学习空间</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./studio.css">
+  <link rel="stylesheet" href="./linked-lessons.css">
+  <link rel="stylesheet" href="./visual-refresh.css">
+  <script defer src="./content.js"></script>
+  <script defer src="./linked-models.js"></script>
+  <script defer src="./linked-lessons.js"></script>
+  <script defer src="./app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳转到主要内容</a>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar" aria-label="主导航"></aside>
+    <button class="sidebar-overlay" id="sidebar-overlay" aria-label="关闭导航" hidden></button>
+    <div class="workspace">
+      <header class="topbar">
+        <div class="topbar-left"><button id="menu-toggle" class="icon-button mobile-menu" aria-label="打开导航" aria-expanded="false"></button><span class="breadcrumb">学习空间 <span>/</span> <strong id="breadcrumb">学习概览</strong></span></div>
+        <div class="topbar-actions"><button class="search-trigger" id="search-open"><span id="search-icon"></span><span>搜索知识点、章节…</span><kbd>Ctrl K</kbd></button><span class="topbar-divider"></span><a class="icon-button" href="#notebook" aria-label="我的笔记" id="notes-link"></a><span class="avatar" title="本地学习者">学</span></div>
+      </header>
+      <main id="main" tabindex="-1"></main>
+      <footer class="site-footer"><span><img class="footer-logo" src="./brand-mark.svg" alt="" width="24" height="24">昕品重制 <span class="dot">·</span> 让理解清晰可见。</span><span>基于《可视化导论》课程的学习重构 <a href="https://cinger007.github.io/vis/" target="_blank" rel="noopener noreferrer">原课程网站 ↗</a></span></footer>
+    </div>
+  </div>
+  <dialog id="search-dialog" class="search-dialog" aria-label="搜索课程知识点"><div class="search-modal-header"><span id="modal-search-icon"></span><input id="search-input" type="search" placeholder="试试“颜色”“Data-Join”“时间”…" aria-label="搜索课程"><button class="icon-button" id="search-close" aria-label="关闭搜索">×</button></div><div id="search-results" class="search-results"></div><div class="search-modal-footer">搜索全部章节与实验 <span>ESC 关闭</span></div></dialog>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

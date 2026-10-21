@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" role="img" aria-labelledby="brand-title brand-desc">
+  <title id="brand-title">昕品重制</title>
+  <desc id="brand-desc">初升的橙色太阳与向上的蓝色数据轨迹，象征从理解到发现。</desc>
+  <circle cx="21" cy="23" r="11" fill="#F4B66A"/>
+  <path d="M21 5V8M6 12L9 15M35 9L32 12" stroke="#17243B" stroke-width="3" stroke-linecap="round"/>
+  <path d="M10 52H54" stroke="#17243B" stroke-width="4" stroke-linecap="round"/>
+  <path d="M12 43L30 35L51 20" stroke="#4263EB" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="12" cy="43" r="4" fill="#4263EB"/>
+  <circle cx="30" cy="35" r="4" fill="#4263EB"/>
+  <circle cx="51" cy="20" r="5" fill="#4263EB"/>
+</svg>
